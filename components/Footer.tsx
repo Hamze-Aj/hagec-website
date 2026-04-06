@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { MapPin, Phone, Mail, Globe, ChevronRight } from "lucide-react";
 
 // Inline SVG brand icons (lucide-react no longer ships these)
@@ -75,11 +76,24 @@ export default function Footer() {
           {/* About column */}
           <div>
             <div className="mb-4">
-              <div className="text-[22px] font-800 text-white" style={{ fontWeight: 800 }}>
-                HAGEC
-              </div>
-              <div className="text-[11px] text-white/50 uppercase tracking-widest">
-                Engineering Consultancy
+              <div className="flex items-center gap-3">
+                <div className="relative h-14 w-14 shrink-0">
+                  <Image
+                    src="/Image.png"
+                    alt="HAGEC Logo"
+                    fill
+                    className="object-contain"
+                    sizes="56px"
+                  />
+                </div>
+                <div>
+                  <div className="text-[22px] font-800 text-white leading-tight" style={{ fontWeight: 800 }}>
+                    HAGEC
+                  </div>
+                  <div className="text-[11px] text-white/50 uppercase tracking-widest">
+                    Engineering Consultancy
+                  </div>
+                </div>
               </div>
             </div>
             <div className="divider-brand mb-4" />
