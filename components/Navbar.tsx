@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { Menu, X, Download, Phone } from "lucide-react";
+import { Menu, X, Phone } from "lucide-react";
 
 const navLinks = [
   { label: "Home", href: "/" },
@@ -43,50 +43,49 @@ export default function Navbar() {
   return (
     <>
       <header
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          scrolled
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
             ? "bg-white shadow-nav backdrop-blur-sm"
             : "bg-white/95 backdrop-blur-sm"
-        }`}
+          }`}
         style={{ borderBottom: scrolled ? "1px solid rgba(0,102,204,0.08)" : "1px solid transparent" }}
       >
         <div className="container-custom">
-          <div className="flex items-center justify-between h-[72px]">
-            {/* Logo */}
+          <div className="flex items-center justify-between min-h-[76px] py-3 lg:min-h-[80px]">
+            {/* Logo — crisp PNG, 56px mark */}
             <Link href="/" className="flex items-center gap-3 flex-shrink-0">
-              <div className="relative w-[52px] h-[52px]">
+              <div className="relative h-14 w-14 shrink-0">
                 <Image
                   src="/logo.png"
                   alt="HAGEC Logo"
                   fill
                   className="object-contain"
+                  sizes="56px"
                   priority
                 />
               </div>
               <div className="hidden sm:block">
                 <div
-                  className="text-[17px] font-800 tracking-tight leading-tight"
+                  className="text-[19px] font-800 tracking-tight leading-tight"
                   style={{ color: "#0A2540", fontWeight: 800 }}
                 >
                   HAGEC
                 </div>
-                <div className="text-[10px] font-500 tracking-wide text-[#64748B] leading-tight uppercase">
+                <div className="text-[11px] font-500 tracking-wide text-[#64748B] leading-tight uppercase">
                   Engineering Consultancy
                 </div>
               </div>
             </Link>
 
             {/* Desktop Nav */}
-            <nav className="hidden lg:flex items-center gap-1" aria-label="Main navigation">
+            <nav className="hidden lg:flex items-center gap-2.5 xl:gap-3" aria-label="Main navigation">
               {navLinks.map((link) => (
                 <Link
                   key={link.href}
                   href={link.href}
-                  className={`nav-link px-3 py-2 rounded-md text-[14px] transition-colors ${
-                    isActive(link.href)
+                  className={`nav-link px-3.5 xl:px-4 py-2 rounded-md text-[14px] transition-colors ${isActive(link.href)
                       ? "text-[#0066CC] font-600"
                       : "text-[#0A2540] hover:text-[#0066CC] font-500"
-                  }`}
+                    }`}
                   aria-current={isActive(link.href) ? "page" : undefined}
                 >
                   {link.label}
@@ -95,16 +94,7 @@ export default function Navbar() {
             </nav>
 
             {/* Desktop CTA */}
-            <div className="hidden lg:flex items-center gap-3">
-              <a
-                href="/HAGEC-Company-Profile.pdf"
-                download
-                className="btn-orange text-[13px] px-4 py-2.5 flex items-center gap-2"
-                id="nav-download-profile"
-              >
-                <Download size={14} />
-                Company Profile
-              </a>
+            <div className="hidden lg:flex items-center">
               <Link
                 href="/contact"
                 className="btn-primary text-[13px] px-4 py-2.5 flex items-center gap-2"
@@ -131,9 +121,8 @@ export default function Navbar() {
 
       {/* Mobile Nav Overlay */}
       <div
-        className={`mobile-nav lg:hidden transition-all duration-300 ${
-          mobileOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
-        }`}
+        className={`mobile-nav lg:hidden transition-all duration-300 ${mobileOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
+          }`}
         style={{ transform: mobileOpen ? "translateX(0)" : "translateX(100%)" }}
         aria-hidden={!mobileOpen}
         role="dialog"
@@ -162,11 +151,10 @@ export default function Navbar() {
             <Link
               key={link.href}
               href={link.href}
-              className={`text-[18px] font-600 py-3 w-full text-center rounded-xl transition-all font-semibold ${
-                isActive(link.href)
+              className={`text-[18px] font-600 py-3 w-full text-center rounded-xl transition-all font-semibold ${isActive(link.href)
                   ? "text-white bg-white/10"
                   : "text-white/80 hover:text-white hover:bg-white/10"
-              }`}
+                }`}
               style={{ fontWeight: 600 }}
             >
               {link.label}
@@ -175,15 +163,7 @@ export default function Navbar() {
         </nav>
 
         <div className="mt-10 flex flex-col gap-3 w-full px-8">
-          <a
-            href="/HAGEC-Company-Profile.pdf"
-            download
-            className="btn-orange w-full justify-center"
-          >
-            <Download size={16} />
-            Download Company Profile
-          </a>
-          <Link href="/contact" className="btn-outline w-full justify-center">
+          <Link href="/contact" className="btn-primary w-full justify-center">
             <Phone size={16} />
             Contact Us
           </Link>
@@ -191,7 +171,7 @@ export default function Navbar() {
       </div>
 
       {/* Spacer */}
-      <div className="h-[72px]" aria-hidden="true" />
+      <div className="h-[76px] lg:h-[80px]" aria-hidden="true" />
     </>
   );
 }

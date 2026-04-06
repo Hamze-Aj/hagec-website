@@ -162,18 +162,18 @@ export default function ServicesPage() {
       {/* ── Services Grid ────────────────────────────────────── */}
       <section className="section-padding bg-white" aria-label="Services list">
         <div className="container-custom">
-          <div className="grid grid-cols-1 gap-14">
+          <div className="grid grid-cols-1 gap-16 md:gap-24">
             {services.map((svc, i) => (
               <div
                 key={i}
                 id={`service-${i + 1}`}
-                className={`grid grid-cols-1 lg:grid-cols-2 gap-10 items-center ${
+                className={`grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center ${
                   i % 2 === 1 ? "lg:flex-row-reverse" : ""
                 }`}
               >
                 {/* Image */}
                 <div className={i % 2 === 1 ? "lg:order-2" : ""}>
-                  <div className="relative rounded-2xl overflow-hidden shadow-card-hover">
+                  <div className="relative rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
                     <Image
                       src={svc.image}
                       alt={svc.title}

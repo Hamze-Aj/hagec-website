@@ -114,11 +114,11 @@ export default function TeamPage() {
       {/* ── Team Grid ─────────────────────────────────────────── */}
       <section className="section-padding bg-[#F8FAFC]" aria-label="Team members">
         <div className="container-custom">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-7">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {team.map((member, i) => (
               <div
                 key={i}
-                className="bg-white rounded-2xl overflow-hidden border border-[#E2E8F0] card-hover group"
+                className="bg-white rounded-2xl overflow-hidden border border-[#E2E8F0] card-hover group shadow-lg hover:shadow-xl h-full flex flex-col"
                 id={`team-member-${i + 1}`}
               >
                 {/* Photo */}
@@ -151,7 +151,7 @@ export default function TeamPage() {
                 </div>
 
                 {/* Info */}
-                <div className="p-5">
+                <div className="p-8 flex flex-col flex-1">
                   <h2
                     className="text-[15px] font-700 text-[#0A2540] leading-snug"
                     style={{ fontWeight: 700 }}

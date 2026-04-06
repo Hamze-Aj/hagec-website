@@ -4,21 +4,21 @@ import { MapPin, Phone, Mail, Globe, ChevronRight } from "lucide-react";
 // Inline SVG brand icons (lucide-react no longer ships these)
 const LinkedinIcon = ({ size = 16 }: { size?: number }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor">
-    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
-    <rect x="2" y="9" width="4" height="12"/>
-    <circle cx="4" cy="4" r="2"/>
+    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+    <rect x="2" y="9" width="4" height="12" />
+    <circle cx="4" cy="4" r="2" />
   </svg>
 );
 
 const TwitterIcon = ({ size = 16 }: { size?: number }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor">
-    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
   </svg>
 );
 
 const FacebookIcon = ({ size = 16 }: { size?: number }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor">
-    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
   </svg>
 );
 
@@ -47,11 +47,11 @@ export default function Footer() {
     <footer className="bg-[#0A2540] text-white">
       {/* CTA Band */}
       <div
-        className="py-14"
+        className="py-16 md:py-20"
         style={{ background: "linear-gradient(135deg, #0066CC 0%, #FF6600 100%)" }}
       >
         <div className="container-custom">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-8 md:gap-10">
             <div>
               <h2 className="text-2xl md:text-3xl font-800 text-white leading-tight" style={{ fontWeight: 800 }}>
                 Ready to Start Your Next Project?
@@ -64,22 +64,14 @@ export default function Footer() {
               <Link href="/contact" className="btn-outline text-[14px]">
                 Get In Touch
               </Link>
-              <a
-                href="/HAGEC-Company-Profile.pdf"
-                download
-                className="bg-white text-[#0A2540] font-600 text-[14px] px-5 py-3 rounded-lg hover:bg-[#F8FAFC] transition-colors flex items-center gap-2"
-                style={{ fontWeight: 600 }}
-              >
-                Download Profile
-              </a>
             </div>
           </div>
         </div>
       </div>
 
       {/* Main Footer */}
-      <div className="container-custom py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+      <div className="container-custom pt-16 pb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-14">
           {/* About column */}
           <div>
             <div className="mb-4">

@@ -144,11 +144,11 @@ export default function ClientsPage() {
             <span className="section-label">Our Partners</span>
             <h2 className="section-title">Organizations We Serve</h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-7">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {clients.map((client, i) => (
               <div
                 key={i}
-                className="bg-[#F8FAFC] rounded-2xl border border-[#E2E8F0] p-6 card-hover group"
+                className="bg-[#F8FAFC] rounded-2xl border border-[#E2E8F0] p-8 card-hover group shadow-lg hover:shadow-xl h-full flex flex-col"
                 id={`client-${i + 1}`}
               >
                 {/* Header */}
@@ -200,11 +200,11 @@ export default function ClientsPage() {
             <span className="section-label">What Clients Say</span>
             <h2 className="section-title">Client Testimonials</h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-7">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {testimonials.map((t, i) => (
               <div
                 key={i}
-                className="bg-white rounded-2xl border border-[#E2E8F0] p-7 shadow-card relative"
+                className="bg-white rounded-2xl border border-[#E2E8F0] p-8 shadow-lg hover:shadow-xl transition-shadow relative h-full flex flex-col"
               >
                 <div className="text-[56px] leading-none text-[#0066CC] opacity-15 font-serif select-none mb-3">
                   &ldquo;

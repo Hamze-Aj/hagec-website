@@ -287,7 +287,7 @@ export default function ContactPage() {
             </div>
 
             {/* Form */}
-            <div className="lg:col-span-2 bg-white rounded-2xl border border-[#E2E8F0] shadow-card p-8">
+            <div className="lg:col-span-2 bg-white rounded-2xl border border-[#E2E8F0] shadow-lg p-8 md:p-10">
               <h2 className="text-[22px] font-700 text-[#0A2540] mb-2" style={{ fontWeight: 700 }}>
                 Send Us an Enquiry
               </h2>

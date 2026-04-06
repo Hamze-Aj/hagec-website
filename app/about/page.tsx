@@ -155,11 +155,11 @@ export default function AboutPage() {
             <span className="section-label">What Drives Us</span>
             <h2 className="section-title">Our Core Values</h2>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
             {values.map((v, i) => (
               <div
                 key={i}
-                className="bg-white rounded-xl p-7 border border-[#E2E8F0] card-hover"
+                className="bg-white rounded-2xl p-8 border border-[#E2E8F0] card-hover shadow-lg hover:shadow-xl h-full"
               >
                 <div
                   className="w-12 h-12 rounded-xl flex items-center justify-center mb-4"
