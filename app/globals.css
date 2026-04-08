@@ -420,6 +420,8 @@ body {
   align-items: center;
   justify-content: center;
   gap: 32px;
+  padding: 80px 24px 48px;
+  overflow-y: auto;
   transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
 }
 

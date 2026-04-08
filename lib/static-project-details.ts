@@ -10,7 +10,7 @@ export const staticProjectsBySlug: Record<string, ProjectDetail> =
     projectSize: "1,500 HA",
     completionDate: "2022",
     status: "Completed",
-    image: "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=1200&q=85",
+    image: "/hagec-website-images/photo_5947369626163416500_y.jpeg",
     shortDescription: "Feasibility study, detailed design, and construction supervision of a 1,500 HA surface irrigation scheme fed by Fafen River in the Jigjiga Zone.",
     fullDescription: [
       "The Fafen River Irrigation Scheme represents one of HAGEC's flagship projects and the largest completed irrigation development in the Somali Region. Commissioned by the Somali Regional State Bureau of Agriculture, the project covers a net irrigable area of 1,500 hectares across the Fafen River basin.",
@@ -26,10 +26,10 @@ export const staticProjectsBySlug: Record<string, ProjectDetail> =
       "100% project completion within budget and on schedule",
     ],
     gallery: [
-      "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800&q=80",
-      "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&q=80",
-      "https://images.unsplash.com/photo-1531966817680-4a1dbf9fbd72?w=800&q=80",
-      "https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=800&q=80",
+      "/hagec-website-images/photo_5947369626163416504_y.jpeg",
+      "/hagec-website-images/photo_5947369626163416505_y.jpeg",
+      "/hagec-website-images/photo_5947369626163416506_y.jpeg",
+      "/hagec-website-images/photo_5947369626163416507_y.jpeg",
     ],
   },
   "wabe-shebelle-solar-pump": {
@@ -40,7 +40,7 @@ export const staticProjectsBySlug: Record<string, ProjectDetail> =
     projectSize: "—",
     completionDate: "2021",
     status: "Completed",
-    image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1200&q=85",
+    image: "/hagec-website-images/photo_5947369626163416508_y.jpeg",
     shortDescription: "Design and installation supervision of a 45 kW solar-pump system providing irrigation water to 200 smallholder farmers.",
     fullDescription: [
       "The Wabe Shebelle Solar-Pump System project was implemented under FAO Ethiopia's livelihoods resilience programme for conflict-affected communities in Gode Zone. HAGEC designed a solar-powered pumping system capable of lifting water from the Wabe Shebelle River to serve 200 smallholder farmers.",
@@ -55,8 +55,8 @@ export const staticProjectsBySlug: Record<string, ProjectDetail> =
       "Full O&M training delivered to community management committee",
     ],
     gallery: [
-      "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800&q=80",
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+      "/hagec-website-images/photo_5947369626163416509_y.jpeg",
+      "/hagec-website-images/photo_5947369626163416510_y.jpeg",
     ],
   },
   "waberi-canal-rehabilitation": {
@@ -67,7 +67,7 @@ export const staticProjectsBySlug: Record<string, ProjectDetail> =
     projectSize: "800 HA",
     completionDate: "2023",
     status: "Completed",
-    image: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=1200&q=85",
+    image: "/hagec-website-images/photo_5947369626163416511_y.jpeg",
     shortDescription: "Rehabilitation of primary and secondary canals of the existing 800 HA Waberi irrigation scheme, including hydraulic modelling and design.",
     fullDescription: [
       "The Waberi Canal Rehabilitation project was funded under a World Bank-supported irrigation development programme. HAGEC was engaged to rehabilitate the primary (12 km) and secondary canal network (38 km) of the existing 800 HA Waberi irrigation scheme which had fallen into disrepair.",
@@ -82,8 +82,8 @@ export const staticProjectsBySlug: Record<string, ProjectDetail> =
       "Detailed O&M manual prepared for local water users association",
     ],
     gallery: [
-      "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&q=80",
-      "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800&q=80",
+      "/hagec-website-images/photo_5947369626163416512_y.jpeg",
+      "/hagec-website-images/photo_5947369626163416513_y.jpeg",
     ],
   },
   "jigjiga-water-supply-eia": {
@@ -94,7 +94,7 @@ export const staticProjectsBySlug: Record<string, ProjectDetail> =
     projectSize: "—",
     completionDate: "2023",
     status: "Completed",
-    image: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=1200&q=85",
+    image: "/hagec-website-images/photo_5947369626163416514_y.jpeg",
     shortDescription: "Full Environmental Impact Assessment and Environmental and Social Management Plan for the Jigjiga municipal water supply expansion project.",
     fullDescription: [
       "HAGEC conducted a comprehensive Environmental Impact Assessment and Environmental and Social Management Plan for the expansion of the Jigjiga municipal water supply system, funded by the African Development Bank. The project scope included a new water intake on the Fafen River, a water treatment plant, and 45 km of transmission and distribution mains.",
@@ -108,7 +108,7 @@ export const staticProjectsBySlug: Record<string, ProjectDetail> =
       "Environmental compliance monitoring programme designed",
     ],
     gallery: [
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=800&q=80",
+      "/hagec-website-images/photo_5947369626163416515_y.jpeg",
     ],
   },
   "somali-region-land-use-mapping": {
@@ -119,7 +119,7 @@ export const staticProjectsBySlug: Record<string, ProjectDetail> =
     projectSize: "—",
     completionDate: "2022",
     status: "Completed",
-    image: "https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=1200&q=85",
+    image: "/hagec-website-images/photo_5947369626163416516_y.jpeg",
     shortDescription: "Satellite image-based land use and land cover mapping of five zones of the Somali Region using GIS and remote sensing analysis.",
     fullDescription: [
       "Under a UNDP-funded natural resource management programme, HAGEC produced comprehensive land use and land cover (LULC) maps for five administrative zones of Somali Region using multi-temporal Sentinel-2 satellite imagery and advanced GIS classification techniques.",
@@ -133,7 +133,7 @@ export const staticProjectsBySlug: Record<string, ProjectDetail> =
       "Remote sensing methodology manual produced for government staff",
     ],
     gallery: [
-      "https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=800&q=80",
+      "/hagec-website-images/photo_5947369626163416518_y.jpeg",
     ],
   },
   "erer-valley-geotechnical": {
@@ -144,7 +144,7 @@ export const staticProjectsBySlug: Record<string, ProjectDetail> =
     projectSize: "—",
     completionDate: "2021",
     status: "Completed",
-    image: "https://images.unsplash.com/photo-1531966817680-4a1dbf9fbd72?w=1200&q=85",
+    image: "/hagec-website-images/photo_5947369626163416519_y.jpeg",
     shortDescription: "Geotechnical investigation for a proposed earth dam, including borehole drilling, laboratory testing, and foundation engineering report.",
     fullDescription: [
       "HAGEC conducted a full programme of geotechnical investigation for a proposed earth-fill dam in the Erer Valley. The investigation programme included geological mapping, test pits, rotary boreholes to 25 m depth, standard penetration testing, laboratory soil and rock testing, and seismic refraction surveys.",
@@ -158,7 +158,7 @@ export const staticProjectsBySlug: Record<string, ProjectDetail> =
       "Construction materials investigation report completed",
     ],
     gallery: [
-      "https://images.unsplash.com/photo-1531966817680-4a1dbf9fbd72?w=800&q=80",
+      "/hagec-website-images/photo_5947369626163416520_y.jpeg",
     ],
   },
   "fafen-basin-hydrology": {
@@ -169,7 +169,7 @@ export const staticProjectsBySlug: Record<string, ProjectDetail> =
     projectSize: "—",
     completionDate: "2024",
     status: "Ongoing",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=85",
+    image: "/hagec-website-images/photo_5947369626163416521_y.jpeg",
     shortDescription: "Comprehensive hydrological and water resources study of the Fafen River Basin including flood analysis, water balance, and flow rating curves.",
     fullDescription: [
       "This ongoing study commissioned by FAO Ethiopia provides a comprehensive hydrological and water resources assessment of the entire Fafen River Basin — the primary water source for the Jigjiga Zone. HAGEC is conducting multi-year streamflow monitoring, rainfall analysis, and water balance modelling to inform long-term irrigation development planning.",
@@ -183,7 +183,7 @@ export const staticProjectsBySlug: Record<string, ProjectDetail> =
       "Hydrogeological map of the basin produced",
     ],
     gallery: [
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+      "/hagec-website-images/photo_5947369626163416522_y.jpeg",
     ],
   },
   "northern-somali-irrigation-feasibility": {
@@ -194,7 +194,7 @@ export const staticProjectsBySlug: Record<string, ProjectDetail> =
     projectSize: "2,500 HA",
     completionDate: "2025",
     status: "Ongoing",
-    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1200&q=85",
+    image: "/hagec-website-images/photo_5947369626163416523_y.jpeg",
     shortDescription: "Pre-feasibility and feasibility study for a new 2,500 HA irrigation scheme in Shinile Zone, including topographic survey and hydrological assessment.",
     fullDescription: [
       "HAGEC is currently conducting a pre-feasibility and feasibility study for a proposed 2,500 HA irrigation development in Shinile Zone, co-financed by the African Development Bank and the Somali Regional State. The study encompasses topographic survey of 4,500 HA using drone photogrammetry, hydrological analysis, geotechnical investigation, environmental scoping, and socio-economic assessment.",
@@ -208,7 +208,7 @@ export const staticProjectsBySlug: Record<string, ProjectDetail> =
       "Feasibility report submission expected Q4 2025",
     ],
     gallery: [
-      "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80",
+      "/hagec-website-images/photo_5947369626163416524_y.jpeg",
     ],
   },
 };

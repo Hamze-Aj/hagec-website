@@ -31,6 +31,7 @@ const quickLinks = [
   { label: "Our Team", href: "/team" },
   { label: "Clients & Partners", href: "/clients" },
   { label: "Contact Us", href: "/contact" },
+  { label: "Content Studio", href: "/studio" },
 ];
 
 const services = [

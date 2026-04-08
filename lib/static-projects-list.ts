@@ -12,7 +12,7 @@ export const STATIC_PROJECTS_LIST: ProjectListItem[] = [
     completionDate: "2022",
     status: "Completed",
     isFeatured: true,
-    image: "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=700&q=80",
+    image: "/hagec-website-images/photo_5947369626163416449_y.jpeg",
     shortDescription: "Feasibility study, detailed design, and construction supervision of a 1,500 HA surface irrigation scheme fed by Fafen River in the Jigjiga Zone.",
   },
   {
@@ -26,7 +26,7 @@ export const STATIC_PROJECTS_LIST: ProjectListItem[] = [
     completionDate: "2021",
     status: "Completed",
     isFeatured: true,
-    image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=700&q=80",
+    image: "/hagec-website-images/photo_5947369626163416453_y.jpeg",
     shortDescription: "Design and installation supervision of a 45 kW solar-pump system providing irrigation water to 200 smallholder farmers.",
   },
   {
@@ -40,7 +40,7 @@ export const STATIC_PROJECTS_LIST: ProjectListItem[] = [
     completionDate: "2023",
     status: "Completed",
     isFeatured: false,
-    image: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=700&q=80",
+    image: "/hagec-website-images/photo_5947369626163416455_y.jpeg",
     shortDescription: "Rehabilitation of primary and secondary canals of the existing 800 HA Waberi irrigation scheme, including hydraulic modelling and design.",
   },
   {
@@ -54,7 +54,7 @@ export const STATIC_PROJECTS_LIST: ProjectListItem[] = [
     completionDate: "2023",
     status: "Completed",
     isFeatured: false,
-    image: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=700&q=80",
+    image: "/hagec-website-images/photo_5947369626163416456_y.jpeg",
     shortDescription: "Full Environmental Impact Assessment and Environmental and Social Management Plan for the Jigjiga municipal water supply expansion project.",
   },
   {
@@ -68,7 +68,7 @@ export const STATIC_PROJECTS_LIST: ProjectListItem[] = [
     completionDate: "2022",
     status: "Completed",
     isFeatured: false,
-    image: "https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=700&q=80",
+    image: "/hagec-website-images/photo_5947369626163416459_y.jpeg",
     shortDescription: "Satellite image-based land use and land cover mapping of five zones of the Somali Region using GIS and remote sensing analysis.",
   },
   {
@@ -82,7 +82,7 @@ export const STATIC_PROJECTS_LIST: ProjectListItem[] = [
     completionDate: "2021",
     status: "Completed",
     isFeatured: false,
-    image: "https://images.unsplash.com/photo-1531966817680-4a1dbf9fbd72?w=700&q=80",
+    image: "/hagec-website-images/photo_5947369626163416462_y.jpeg",
     shortDescription: "Geotechnical investigation for a proposed earth dam, including borehole drilling, laboratory testing, and foundation engineering report.",
   },
   {
@@ -96,7 +96,7 @@ export const STATIC_PROJECTS_LIST: ProjectListItem[] = [
     completionDate: "2024",
     status: "Ongoing",
     isFeatured: true,
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=700&q=80",
+    image: "/hagec-website-images/photo_5947369626163416465_y.jpeg",
     shortDescription: "Comprehensive hydrological and water resources study of the Fafen River Basin including flood analysis, water balance, and flow rating curves.",
   },
   {
@@ -110,7 +110,7 @@ export const STATIC_PROJECTS_LIST: ProjectListItem[] = [
     completionDate: "2025",
     status: "Ongoing",
     isFeatured: false,
-    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=700&q=80",
+    image: "/hagec-website-images/photo_5947369626163416467_y.jpeg",
     shortDescription: "Pre-feasibility and feasibility study for a new 2,500 HA irrigation scheme in Shinile Zone, including topographic survey and hydrological assessment.",
   },
 ];

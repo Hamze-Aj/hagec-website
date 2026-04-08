@@ -67,7 +67,7 @@ export default function AboutPage() {
       >
         <div className="absolute inset-0 opacity-10">
           <Image
-            src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=1600&q=75"
+            src="/about.jpeg"
             alt=""
             fill
             className="object-cover"
@@ -130,7 +130,7 @@ export default function AboutPage() {
             <div className="relative">
               <div className="relative rounded-2xl overflow-hidden shadow-card-hover">
                 <Image
-                  src="https://images.unsplash.com/photo-1531966817680-4a1dbf9fbd72?w=800&q=80"
+                  src="/about.jpeg"
                   alt="HAGEC field team conducting an environmental survey"
                   width={600}
                   height={480}

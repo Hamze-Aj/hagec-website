@@ -173,7 +173,7 @@ export default function HomePageClient({
         {/* BG Image */}
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1600&q=85"
+            src="/hagec-website-images/photo_5947369626163416525_y.jpeg"
             alt="Irrigation canals in the Somali Region of Ethiopia"
             fill
             className="object-cover"
@@ -252,7 +252,7 @@ export default function HomePageClient({
             <div className="relative animate-on-scroll">
               <div className="relative rounded-2xl overflow-hidden shadow-card-hover">
                 <Image
-                  src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&q=80"
+                  src="/hagec-website-images/photo_5947369626163416526_y.jpeg"
                   alt="HAGEC engineers conducting a field survey in the Somali Region"
                   width={600}
                   height={450}
@@ -526,11 +526,11 @@ export default function HomePageClient({
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
             {[
-              { src: "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=600&q=80", alt: "Solar irrigation pump installation", span: "md:col-span-2 md:row-span-2" },
-              { src: "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=600&q=80", alt: "Irrigation canal in Ethiopia", span: "" },
-              { src: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=600&q=80", alt: "Field survey team", span: "" },
-              { src: "https://images.unsplash.com/photo-1531966817680-4a1dbf9fbd72?w=600&q=80", alt: "GIS mapping and analysis", span: "" },
-              { src: "https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=600&q=80", alt: "Water pump infrastructure", span: "" },
+              { src: "/hagec-website-images/photo_5947369626163416527_y.jpeg", alt: "Solar irrigation pump installation", span: "md:col-span-2 md:row-span-2" },
+              { src: "/hagec-website-images/photo_5947369626163416500_y (1).jpeg", alt: "Irrigation canal in Ethiopia", span: "" },
+              { src: "/hagec-website-images/photo_5947369626163416498_y (1).jpeg", alt: "Field survey team", span: "" },
+              { src: "/hagec-website-images/photo_5947369626163416473_y.jpeg", alt: "GIS mapping and analysis", span: "" },
+              { src: "/hagec-website-images/photo_5947369626163416470_y.jpeg", alt: "Water resources field work", span: "" },
             ].map((img, i) => (
               <div
                 key={i}

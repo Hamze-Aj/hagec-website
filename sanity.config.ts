@@ -1,34 +1,28 @@
-import { defineConfig } from "sanity";
-import { structureTool } from "sanity/structure";
-import { visionTool } from "@sanity/vision";
-import { project } from "./sanity/schemas/project";
-import { galleryImage } from "./sanity/schemas/galleryImage";
+'use client'
+
+/**
+ * This configuration is used to for the Sanity Studio that’s mounted on the `/app/studio/[[...tool]]/page.tsx` route
+ */
+
+import {visionTool} from '@sanity/vision'
+import {defineConfig} from 'sanity'
+import {structureTool} from 'sanity/structure'
+
+// Go to https://www.sanity.io/docs/api-versioning to learn how API versioning works
+import {apiVersion, dataset, projectId} from './sanity/env'
+import {schema} from './sanity/schemaTypes'
+import {structure} from './sanity/structure'
 
 export default defineConfig({
-  name: "hagec-studio",
-  title: "HAGEC Content Studio",
-  projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || "your-project-id",
-  dataset: process.env.NEXT_PUBLIC_SANITY_DATASET || "production",
-  basePath: "/studio",
+  basePath: '/studio',
+  projectId,
+  dataset,
+  // Add and edit the content schema in the './sanity/schemaTypes' folder
+  schema,
   plugins: [
-    structureTool({
-      structure: (S) =>
-        S.list()
-          .title("HAGEC Content")
-          .items([
-            S.listItem()
-              .title("Projects")
-              .schemaType("project")
-              .child(S.documentTypeList("project").title("All Projects")),
-            S.listItem()
-              .title("Gallery Images")
-              .schemaType("galleryImage")
-              .child(S.documentTypeList("galleryImage").title("Gallery Images")),
-          ]),
-    }),
-    visionTool(),
+    structureTool({structure}),
+    // Vision is for querying with GROQ from inside the Studio
+    // https://www.sanity.io/docs/the-vision-plugin
+    visionTool({defaultApiVersion: apiVersion}),
   ],
-  schema: {
-    types: [project, galleryImage],
-  },
-});
+})

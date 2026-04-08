@@ -18,7 +18,7 @@ const services = [
     title: "Irrigation System Design & Engineering",
     shortDesc: "Comprehensive irrigation scheme design serving thousands of hectares.",
     color: "#0066CC",
-    image: "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=700&q=80",
+    image: "/hagec-website-images/photo_5947369626163416449_y.jpeg",
     deliverables: [
       "Irrigation feasibility and feasibility studies",
       "Surface irrigation system design (canal, furrow, sprinkler, drip)",
@@ -33,7 +33,7 @@ const services = [
     title: "Hydrology & Water Resources",
     shortDesc: "Scientific water resource assessment for integrated basin management.",
     color: "#FF6600",
-    image: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=700&q=80",
+    image: "/hagec-website-images/photo_5947369626163416471_y.jpeg",
     deliverables: [
       "Hydrological data collection and analysis",
       "Flood frequency analysis and floodplain delineation",
@@ -48,7 +48,7 @@ const services = [
     title: "Geotechnical Studies & Geological Investigations",
     shortDesc: "Site investigation, laboratory testing, and foundation engineering.",
     color: "#0A2540",
-    image: "https://images.unsplash.com/photo-1531966817680-4a1dbf9fbd72?w=700&q=80",
+    image: "/hagec-website-images/photo_5947369626163416462_y.jpeg",
     deliverables: [
       "Field geological and geotechnical surveys",
       "Test pit, trial bore, and borehole logging",
@@ -63,7 +63,7 @@ const services = [
     title: "Solar-Pump Systems",
     shortDesc: "Off-grid solar-powered water pumping for irrigation and community supply.",
     color: "#FF6600",
-    image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=700&q=80",
+    image: "/hagec-website-images/photo_5947369626163416453_y.jpeg",
     deliverables: [
       "Solar radiation and energy resource assessment",
       "Pump sizing and hydraulic design",
@@ -78,7 +78,7 @@ const services = [
     title: "GIS, Remote Sensing & Surveying",
     shortDesc: "Advanced spatial analysis, mapping, and topographic surveys.",
     color: "#0066CC",
-    image: "https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=700&q=80",
+    image: "/hagec-website-images/photo_5947369626163416482_y.jpeg",
     deliverables: [
       "Topographic surveys (total station, GNSS/GPS, drone)",
       "Digital Elevation Model (DEM) production",
@@ -93,7 +93,7 @@ const services = [
     title: "Environmental Impact Assessment",
     shortDesc: "Rigorous EIA and ESMP in compliance with Ethiopian and international standards.",
     color: "#0A2540",
-    image: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=700&q=80",
+    image: "/hagec-website-images/photo_5947369626163416485_y.jpeg",
     deliverables: [
       "Scoping and baseline environmental surveys",
       "Environmental and Social Impact Assessment (ESIA)",
@@ -108,7 +108,7 @@ const services = [
     title: "Construction Supervision",
     shortDesc: "Qualified resident engineers ensuring quality, safety, and compliance.",
     color: "#FF6600",
-    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=700&q=80",
+    image: "/hagec-website-images/photo_5947369626163416507_y.jpeg",
     deliverables: [
       "Resident Engineer and site supervision services",
       "Construction quality assurance and control",
@@ -123,7 +123,7 @@ const services = [
     title: "Feasibility & Detailed Design Studies",
     shortDesc: "From pre-feasibility to detailed engineering design and tender documents.",
     color: "#0066CC",
-    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=700&q=80",
+    image: "/hagec-website-images/photo_5947369626163416513_y.jpeg",
     deliverables: [
       "Pre-feasibility and feasibility studies",
       "Preliminary and detailed engineering design",
