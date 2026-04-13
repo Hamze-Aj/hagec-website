@@ -194,13 +194,13 @@ export default function HomePageClient({
             className="text-[clamp(34px,6vw,72px)] font-900 leading-[1.06] sm:leading-[1.1] mb-6 max-w-5xl mx-auto"
             style={{ fontWeight: 900, letterSpacing: "-0.025em", textShadow: "0 2px 16px rgba(0,0,0,0.3)" }}
           >
-            Sustainable Engineering Solutions for{" "}
+            Horn of African  {" "}
             <span className="block sm:inline" />
             <span className="block sm:inline" style={{ color: "#FF6600" }}>
-              Water Resources & Infrastructure
+              Geology and Engineering
             </span>
             <span className="block sm:inline" />
-            <span className="block sm:inline">in the Horn of Africa</span>
+            <span className="block sm:inline">Consultant</span>
           </h1>
 
           <p className="text-[16px] sm:text-[18px] text-white/85 max-w-2xl mx-auto mb-10 md:mb-12 leading-relaxed">
