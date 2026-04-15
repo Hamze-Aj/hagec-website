@@ -200,7 +200,7 @@ export default function HomePageClient({
               Geology and Engineering
             </span>
             <span className="block sm:inline" />
-            <span className="block sm:inline">Consultant</span>
+            <span className="block sm:inline"> Consultant</span>
           </h1>
 
           <p className="text-[16px] sm:text-[18px] text-white/85 max-w-2xl mx-auto mb-10 md:mb-12 leading-relaxed">
