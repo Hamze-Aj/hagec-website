@@ -69,10 +69,10 @@ const team = [
 ];
 
 const disciplines = [
+  { label: "Total Staff", count: "25" },
   { label: "Engineers", count: "12+" },
   { label: "Geologists", count: "4+" },
-  { label: "GIS Specialists", count: "3+" },
-  { label: "Environmental Specialists", count: "2+" },
+  { label: "GIS & Environmental", count: "5+" },
 ];
 
 export default function TeamPage() {
@@ -93,8 +93,9 @@ export default function TeamPage() {
             Our Team
           </h1>
           <p className="text-white/75 text-[17px] max-w-2xl mx-auto leading-relaxed">
-            A multidisciplinary team of certified engineers, geologists, hydrologists, and
-            specialists with deep roots in the Horn of Africa.
+            A multidisciplinary team of <strong>25 certified engineers, geologists, hydrologists, and
+              specialists</strong> led by Acting General Manager <strong>Abdihadi Haji Hussein</strong>,
+            with deep roots in the Horn of Africa.
           </p>
 
           {/* Discipline stats */}

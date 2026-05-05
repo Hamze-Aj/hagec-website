@@ -90,6 +90,66 @@ const clients = [
     logo: null,
     color: "#0A2540",
   },
+  {
+    name: "Salma Group",
+    fullName: "Salma Group of Companies",
+    category: "Private Sector",
+    description:
+      "Engineering consultancy and site investigation services supporting the Salma Group's agro-industrial development initiatives in the Somali Region.",
+    engagements: ["Agro-industrial Site Investigation", "Engineering Design Support"],
+    logo: null,
+    color: "#FF6600",
+  },
+  {
+    name: "Saahid Group",
+    fullName: "Saahid Group",
+    category: "Private Sector",
+    description:
+      "Technical consulting and feasibility studies for Saahid Group's infrastructure and agricultural development projects across the Somali Region.",
+    engagements: ["Feasibility Study", "Technical Consulting"],
+    logo: null,
+    color: "#0066CC",
+  },
+  {
+    name: "Lahelow Mining",
+    fullName: "Lahelow Mining Company",
+    category: "Private Sector",
+    description:
+      "Geotechnical investigations, geological mapping, and environmental assessment services supporting Lahelow Mining's operations.",
+    engagements: ["Geological Mapping", "Geotechnical Investigation", "EIA"],
+    logo: null,
+    color: "#0A2540",
+  },
+  {
+    name: "Marwo Agro",
+    fullName: "Marwo Agro-Industry",
+    category: "Private Sector",
+    description:
+      "Irrigation design, agronomy planning, and water supply engineering for Marwo Agro's commercial farming operations.",
+    engagements: ["Irrigation Design", "Water Supply Engineering"],
+    logo: null,
+    color: "#FF6600",
+  },
+  {
+    name: "Fortune Art Stone",
+    fullName: "Fortune Art Stone Company",
+    category: "Private Sector",
+    description:
+      "Geological site assessment and quarry investigation services supporting Fortune Art Stone's extraction and processing operations.",
+    engagements: ["Geological Site Assessment", "Quarry Investigation"],
+    logo: null,
+    color: "#0066CC",
+  },
+  {
+    name: "Jigjiga University",
+    fullName: "Jigjiga University",
+    category: "Academic Partner",
+    description:
+      "Research collaboration and technical partnership with Jigjiga University on water resources, geology, and engineering studies relevant to the Somali Region.",
+    engagements: ["Research Collaboration", "Technical Partnership"],
+    logo: null,
+    color: "#0A2540",
+  },
 ];
 
 const testimonials = [

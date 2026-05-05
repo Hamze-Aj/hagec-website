@@ -23,7 +23,7 @@ import type { ProjectListItem } from "@/lib/project-types";
 const stats = [
   { value: 3000, suffix: "+ HA", label: "Irrigated Area Designed" },
   { value: 15, suffix: "+", label: "Projects Completed" },
-  { value: 10, suffix: "+", label: "Years of Experience" },
+  { value: 25, suffix: "", label: "Staff Members" },
   { value: 8, suffix: "", label: "Service Disciplines" },
 ];
 
@@ -87,6 +87,12 @@ const clients = [
   { name: "JICA Ethiopia", abbr: "JICA" },
   { name: "Somali Regional State", abbr: "SRS" },
   { name: "Ministry of Agriculture", abbr: "MoA" },
+  { name: "Salma Group", abbr: "SG" },
+  { name: "Saahid Group", abbr: "SH" },
+  { name: "Lahelow Mining", abbr: "LM" },
+  { name: "Marwo Agro", abbr: "MA" },
+  { name: "Fortune Art Stone", abbr: "FA" },
+  { name: "Jigjiga University", abbr: "JU" },
 ];
 
 // ─── Why HAGEC ────────────────────────────────────────────────────────────────
@@ -269,9 +275,9 @@ export default function HomePageClient({
                 </div>
                 <div>
                   <div className="text-[20px] font-800 text-[#0A2540]" style={{ fontWeight: 800 }}>
-                    10+
+                    Est. 2023
                   </div>
-                  <div className="text-[13px] text-[#64748B]">Years of Excellence</div>
+                  <div className="text-[13px] text-[#64748B]">Jigjiga, Somali Region</div>
                 </div>
               </div>
             </div>
@@ -395,8 +401,8 @@ export default function HomePageClient({
                   <div className="absolute top-4 left-4">
                     <span
                       className={`text-[11px] font-700 px-3 py-1 rounded-full ${project.status === "Completed"
-                          ? "bg-emerald-500 text-white"
-                          : "bg-[#FF6600] text-white"
+                        ? "bg-emerald-500 text-white"
+                        : "bg-[#FF6600] text-white"
                         }`}
                       style={{ fontWeight: 700 }}
                     >
@@ -484,7 +490,7 @@ export default function HomePageClient({
             <span className="section-label">Trusted By</span>
             <h2 className="section-title">Our Clients & Partners</h2>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 md:gap-8">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-6 md:gap-8">
             {clients.map((client, i) => (
               <div
                 key={i}
